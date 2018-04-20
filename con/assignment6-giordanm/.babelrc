@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-styled-components", {
+      "displayName": false
+    }
+    ],
+    "transform-react-jsx"
+  ],
+  "presets": [
+    "es2015",
+    "react"
+  ]
+}

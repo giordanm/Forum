@@ -1,0 +1,35 @@
+{
+  "users": {
+    "primary": {
+      "username": "primaryuser",
+      "primary_email": "verify_primary@test.com",
+      "password": "!12345Aasdf",
+      "first_name": "Primary",
+      "last_name": "User",
+      "city": "Nashville"
+    },
+    "second": {
+      "username": "seconduser",
+      "primary_email": "second@test.com",
+      "password": "!12345Aasdf",
+      "first_name": "Secondary",
+      "last_name": "Person",
+      "city": "NYC"
+    },
+    "third": {
+      "username": "thirduser",
+      "primary_email": "third@test.com",
+      "password": "!12345Aasdf",
+      "first_name": "Third",
+      "last_name": "Tester",
+      "city": "Greenville"
+    }
+  },
+  "transactions": [
+    {
+      "from": "primaryuser",
+      "to": "seconduser",
+      "amount": 100.25
+    }
+  ]
+}
